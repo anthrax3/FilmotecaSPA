@@ -4,7 +4,7 @@
         $http.get("api/filme")
             .success(function (data) {
                 $scope.filmes = data;
-            }
+            });
     };
 
     app.controller('listaController', listaController);
